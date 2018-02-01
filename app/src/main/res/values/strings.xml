@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Medical Quiz</string>
+    <string name="question_1">Which bone lies parallel to the Radius bone?</string>
+    <string name="question_2">Which two of these bones are parts of the hand?</string>
+    <string name="femur">Femur</string>
+    <string name="ulna">Ulna</string>
+    <string name="tibia">Tibia</string>
+    <string name="humorous_bone">Humorous</string>
+    <string name="scapula">Scapula</string>
+    <string name="metatarsus">Metatarsus</string>
+    <string name="metacarpus">Metacarpus</string>
+    <string name="calyx">Calyx</string>
+    <string name="hallux">Hallux</string>
+    <string name="scaphoid">Scaphoid</string>
+    <string name="question_3">Where will you find your "Cervical Spine"?</string>
+    <string name="skull">Skull</string>
+    <string name="neck">Neck</string>
+    <string name="upper_back">Upper Back</string>
+    <string name="lower_back">Lower Back</string>
+    <string name="question_4">What is the name given to the coloured part of your eye?</string>
+    <string name="answer_here">Answer Here:</string>
+    <string name="question_5">Which term means "rapid breathing"?</string>
+    <string name="tachycardia">Tachycardia</string>
+    <string name="tachyphasia">Tachyphasia</string>
+    <string name="tachyphrenia">Tachyphrenia</string>
+    <string name="tachypnoea">Tachypnoea</string>
+    <string name="question_6">Which one of these is required for normal cardiac electrical conduction?</string>
+    <string name="atrioventricular">Atrioventricular Node</string>
+    <string name="bundle">Bundle of His</string>
+    <string name="sinoatrial">Sinoatrial Node</string>
+    <string name="islets">Islets of Langerhans</string>
+    <string name="oddi">Sphincter of Oddi</string>
+    <string name="submit_answers">SUBMIT ANSWERS</string>
+    <string name="close">CLICK START THE QUIZ TO RESET</string>
+    <string name="reset">RESET THE QUIZ</string>
+    <string name="caecum">Caecum</string>
+    <string name="macula">Macula</string>
+
+
+
+</resources>
