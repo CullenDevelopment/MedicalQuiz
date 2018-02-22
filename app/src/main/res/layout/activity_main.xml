@@ -7,7 +7,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
@@ -21,11 +21,11 @@
             android:id="@+id/question_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margins"
             android:layout_alignParentTop="true"
             android:fontFamily="sans-serif-black"
             android:text="@string/question_1"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
         <RadioGroup
             android:id="@+id/bones_group"
@@ -38,51 +38,51 @@
                 android:id="@+id/femur"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="bonesGroupClicked"
                 android:text="@string/femur"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/ulna"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="bonesGroupClicked"
                 android:text="@string/ulna"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/tibia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="bonesGroupClicked"
                 android:text="@string/tibia"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/humorous"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="bonesGroupClicked"
                 android:text="@string/humorous_bone"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/scapula"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="bonesGroupClicked"
                 android:text="@string/scapula"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
 
         </RadioGroup>
@@ -91,79 +91,80 @@
             android:id="@+id/question_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_margin="@dimen/margins"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:layout_below = "@id/bones_group"
             android:fontFamily="sans-serif-black"
             android:text="@string/question_2"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
 
         <CheckBox
             android:id="@+id/metatarsus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:layout_below = "@id/question_2"
             android:onClick="metatarsusClick"
             android:text="@string/metatarsus"
-            android:textSize="20sp" />
+            android:textSize="@dimen/buttonText" />
 
         <CheckBox
             android:id="@+id/metacarpus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below = "@id/metatarsus"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:onClick="metacarpusClick"
             android:text="@string/metacarpus"
-            android:textSize="20sp" />
+            android:textSize="@dimen/buttonText" />
 
         <CheckBox
             android:id="@+id/calyx"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:layout_below = "@id/metacarpus"
             android:onClick="calyxClick"
             android:text="@string/calyx"
-            android:textSize="20sp" />
+            android:textSize="@dimen/buttonText" />
 
         <CheckBox
             android:id="@+id/hallux"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:layout_below = "@id/calyx"
             android:onClick="halluxClick"
             android:text="@string/hallux"
-            android:textSize="20sp" />
+            android:textSize="@dimen/buttonText" />
 
         <CheckBox
             android:id="@+id/scaphoid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:layout_below = "@id/hallux"
             android:onClick="scaphoidClick"
             android:text="@string/scaphoid"
-            android:textSize="20sp" />
+            android:textSize="@dimen/buttonText" />
 
 
         <TextView
             android:id="@+id/question_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margins"
             android:fontFamily="sans-serif-black"
             android:layout_below = "@id/scaphoid"
             android:text="@string/question_3"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
         <RadioGroup
             android:id="@+id/spine_group"
@@ -176,41 +177,41 @@
                 android:id="@+id/skull"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="spineGroupClicked"
                 android:text="@string/skull"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/neck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="spineGroupClicked"
                 android:text="@string/neck"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/upper_back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="spineGroupClicked"
                 android:text="@string/upper_back"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/lower_back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="spineGroupClicked"
                 android:text="@string/lower_back"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
         </RadioGroup>
 
@@ -218,18 +219,18 @@
             android:id="@+id/question_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margins"
             android:layout_below = "@id/spine_group"
             android:fontFamily="sans-serif-black"
             android:text="@string/question_4"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
         <EditText
             android:id="@+id/eye_answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginLeft="@dimen/margins"
+            android:layout_marginStart="@dimen/margins"
             android:layout_below = "@id/question_4"
             android:hint="@string/answer_here"
             android:inputType="textCapWords" />
@@ -238,11 +239,11 @@
             android:id="@+id/question_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margins"
             android:layout_below = "@id/eye_answer"
             android:fontFamily="sans-serif-black"
             android:text="@string/question_5"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
         <RadioGroup
             android:id="@+id/breathing_group"
@@ -255,41 +256,41 @@
                 android:id="@+id/tachycardia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="fastGroupClicked"
                 android:text="@string/tachycardia"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/tachyphasia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="fastGroupClicked"
                 android:text="@string/tachyphasia"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/tachyphrenia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="fastGroupClicked"
                 android:text="@string/tachyphrenia"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/tachypnoea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="fastGroupClicked"
                 android:text="@string/tachypnoea"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
         </RadioGroup>
 
@@ -298,11 +299,11 @@
             android:id="@+id/question_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="@dimen/margins"
             android:layout_below = "@id/breathing_group"
             android:fontFamily="sans-serif-black"
             android:text="@string/question_6"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
 
         <RadioGroup
@@ -316,51 +317,51 @@
                 android:id="@+id/caecum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="heartGroupClicked"
                 android:text="@string/caecum"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/macula"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="heartGroupClicked"
                 android:text="@string/macula"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/Sinoatrial_node"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="heartGroupClicked"
                 android:text="@string/sinoatrial"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/Islets_of_langerhans"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="heartGroupClicked"
                 android:text="@string/islets"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
             <RadioButton
                 android:id="@+id/Sphincter_of_oddi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginLeft="@dimen/margins"
+                android:layout_marginStart="@dimen/margins"
                 android:onClick="heartGroupClicked"
                 android:text="@string/oddi"
-                android:textSize="20sp" />
+                android:textSize="@dimen/buttonText" />
 
         </RadioGroup>
 
@@ -370,22 +371,22 @@
             android:layout_height="wrap_content"
             android:layout_below = "@id/heart_group"
             android:layout_marginTop="96dp"
-            android:layout_marginBottom="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
+            android:layout_marginBottom="@dimen/buttonMargin"
+            android:layout_marginLeft="@dimen/buttonMargin"
+            android:layout_marginRight="@dimen/buttonMargin"
             android:onClick="submitAnswers"
             android:text="@string/submit_answers"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
         <Button
             android:id="@+id/resetQuiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/buttonMargin"
             android:layout_below = "@id/submit"
             android:onClick="reset_quiz"
             android:text="@string/reset"
-            android:textSize="24sp" />
+            android:textSize="@dimen/textSize" />
 
 
     </RelativeLayout>
